@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlobalSteam</title>
+<link rel="stylesheet" href="./CSS/HomePage.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="brand-left" style="display:flex; gap:150px; align-items:center">
+          <div style="display:flex;align-items:center; gap:4px;">
+            <div class="logo">GS</div>
+            <div>
+              <div id="site-tittle">GlobalSteam</div>
+              <div class="muted small" id="site-sub" data-i18n="header.subtitle">低价区·折扣·余额</div>
+            </div>
+          </div>
+          <nav id="left-nav">
+            <ul style="display:flex;gap:75px;align-items:center;margin:0;padding:0;list-style:none">
+              <li class="nav-item">
+                <span data-i18n="nav.projects">主要项目</span>
+                <ul class="dropdown-menu">
+                  <li><a href="#" data-i18n="dropdown.steamBalance">Steam余额</a></li>
+                  <li><a href="#" data-i18n="dropdown.steamAccount">Steam账号</a></li>
+                  <li><a href="#" data-i18n="dropdown.steamGift">Steam代购</a></li>
+                  <li><a href="#" data-i18n="dropdown.steamRegister">Steam注册</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <span>Xbox</span>
+                <ul class="dropdown-menu">
+                  <li><a href="#" data-i18n="dropdown.comingSoon">即将推出</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <span>PSN</span>
+                <ul class="dropdown-menu">
+                  <li><a href="#" data-i18n="dropdown.comingSoon">即将推出</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <span>Nintendo</span>
+                <ul class="dropdown-menu">
+                  <li><a href="#" data-i18n="dropdown.comingSoon">即将推出</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="brand-right" style="display:flex;align-items:center;gap:50px">
+          <nav id="right-nav">
+            <ul style="display:flex; gap:12px; align-items:center; margin:0; padding:0; list-style:none">
+              <li class="nav-item">
+                <span data-i18n="nav.support">支持</span>
+                <ul class="dropdown-menu">
+                  <li><a href="#" data-i18n="dropdown.contact">联系客服</a></li>
+                  <li><a href="#" data-i18n="dropdown.about">关于我们</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <select id="lang" class="lang-switch" aria-label="Language switch">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="ja">日本語</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="hi">हिन्दी</option>
+            <option value="pt">Português</option>
+            <option value="ru">Русский</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section">
+        <h2 data-i18n="main.s1.title">致所有玩家的一封信</h2>
+        <p data-i18n="main.s1.p1">亲爱的玩家们，</p>
+        <p data-i18n="main.s1.p2">你是否曾因Steam高昂的定价而对心仪的游戏望而却步？<br>
+        你是否曾为抢不到绝版游戏或特定区域限定内容而懊恼不已？<br>
+        你是否觉得注册外区账号流程繁琐，充满未知风险？</p>
+        <p data-i18n="main.s1.p3">我们，GlobalSteam，完全理解你的烦恼！我们是一群由资深游戏玩家组成的团队，我们的使命就是打破地域与价格的壁垒，让每一位玩家都能以最实惠的价格、最便捷的方式，享受到全球游戏的乐趣。</p>
+      </div>
+      <div class="section">
+        <h2 data-i18n="main.s2.title">我们为您提供什么？</h2>
+        <p data-i18n="main.s2.p1">我们致力于打造一个一站式、安全可靠的Steam全球游戏服务平台。</p>
+        <h3 data-i18n="main.s2.s1.title">1. 全球礼物代购 - 用最低成本，玩最多游戏！</h3>
+        <p data-i18n="main.s2.s1.p1">核心优势：利用全球各区域的定价差异，为您从低价区（如阿根廷、土耳其等）购买游戏，并以Steam官方礼物的形式发送给您。价格远低于国区，省钱就是硬道理！</p>
+        <p data-i18n="main.s2.s1.p2">安全保障：所有礼物均通过Steam官方渠道发送，来源清晰，绝无黑卡风险，保障您的账号安全。</p>
+        <p data-i18n="main.s2.s1.p3">便捷流程：只需提供您的Steam个人资料链接，选择游戏，支付后坐等收礼即可！</p>
+        <h3 data-i18n="main.s2.s2.title">2. 全球账号售卖 - 一步到位，畅游世界！</h3>
+        <p data-i18n="main.s2.s2.p1">账号多样：我们提供已稳定入驻阿根廷、土耳其、俄罗斯、香港等多个区域的Steam账号。无论是为了购买低价游戏，还是体验区域限定内容，总有一款适合你。</p>
+        <p data-i18n="main.s2.s2.p2">安全可靠：所有账号均经过我们严格筛选和培养，资料齐全，初始邮箱可更改，最大限度保障您的账号所有权和安全。</p>
+        <p data-i18n="main.s2.s2.p3">即买即用：购买后您将获得完整的账号信息，无需等待，立即开始您的全球游戏之旅。</p>
+        <h3 data-i18n="main.s2.s3.title">3. 账号代注册 - 专业的事，交给专业的人！</h3>
+        <p data-i18n="main.s2.s3.p1">省时省力：繁琐的跨区注册流程、复杂的网络环境要求、难以获取的当地支付方式……这些都交给我们！</p>
+        <p data-i18n="main.s2.s3.p2">高成功率：我们拥有成熟的注册方案和资源，确保为您成功注册一个干净、稳定的外区Steam账号。</p>
+        <p data-i18n="main.s2.s3.p3">个性化服务：您可以选择指定的区域，我们甚至可以协助您完成首次充值或购买。</p>
+        <h3 data-i18n="main.s2.s4.title">4. 余额交易 - 灵活变现，智慧充值！</h3>
+        <p data-i18n="main.s2.s4.p1">余额来源：提供来自社区市场交易、Steam充值卡等多种渠道的Steam钱包余额。</p>
+        <p data-i18n="main.s2.s4.p2">超值折扣：相比官方渠道，我们的余额充值通常享有诱人的折扣，让您的每一分钱都花在刀刃上。</p>
+        <p data-i18n="main.s2.s4.p3">多种用途：充值后的余额可用于购买游戏、DLC、内购道具，或在社区市场购买皮肤、贴纸等，灵活又方便。</p>
+        <h3 data-i18n="main.s2.s5.title">为什么选择我们？</h3>
+        <p data-i18n="main.s2.s5.p1">玩家之心：我们本身就是玩家，深刻理解您的需求和担忧，服务体验从玩家角度出发。</p>
+        <p data-i18n="main.s2.s5.p2">极致安全：我们将用户账号安全置于首位，所有交易流程都经过精心设计，力求透明、可追溯。</p>
+        <p data-i18n="main.s2.s5.p3">透明定价：价格公开透明，无隐藏费用。您可以在购买前清晰了解所有成本。</p>
+        <p data-i18n="main.s2.s5.p4">专业客服：7x24小时在线客服团队，随时为您解答疑问，处理订单中遇到的任何问题。</p>
+        <p data-i18n="main.s2.s5.p5">隐私保护：我们郑重承诺，绝不会泄露您的任何个人及账号信息。</p>
+        <h3 data-i18n="main.s2.s6.title">风险与提示</h3>
+        <p data-i18n="main.s2.s6.p1">我们深知，跨区交易存在一定的政策风险。因此，我们强烈建议您：使用小号进行跨区购买和游玩是更稳妥的选择。请勿频繁切换账号区域或进行异常的大额交易，以免触发Steam的风控机制。我们所做的一切，都是在遵守Steam用户协议的前提下，为您提供信息和服务。我们鼓励每位玩家在享受服务的同时，了解并自行承担潜在风险。</p>
+        <h3 data-i18n="main.s2.s7.title">立即行动！</h3>
+        <p data-i18n="main.s2.s7.p1">不要再让价格和地域限制您的游戏体验！前往 GameGlobal，发现一个全新的游戏世界。现在注册，即可领取新用户专属优惠券！</p>
+      </div>
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <div class="small">© <span id="year"></span>GameSteam</div>
+          <div class="muted small" data-i18n="footer.notice">服务仅面向需要低价区购买的用户。请遵守当地法律与平台条款。</div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:center">
+          <a class="muted small" href="#" data-i18n="footer.tos">条款 & 隐私</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./JS/HomePage.js"></script>
+
+</body>
+</html>
