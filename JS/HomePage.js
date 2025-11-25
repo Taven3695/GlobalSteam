@@ -105,8 +105,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
       'main.s1.p1': 'Estimados jugadores,',
       'main.s1.p2':'¿Alguna vez te has sentido desanimado por los altos precios en la tienda Steam de tu región?\n¿Alguna vez has perdido contenido de edición limitada o regional?\n¿Encuentras complicado y riesgoso registrar cuentas extranjeras?',
       'main.s1.p3':'Nosotros en GameGlobal entendemos completamente sus preocupaciones! Somos un equipo de jugadores experimentados dedicados a eliminar las barreras regionales y de precios, permitiendo que cada jugador disfrute de los juegos a nivel global al mejor precio y de la manera más conveniente. ',
-      'main.s2.title': 'What Can We Offer?',
-      'main.s2.p1': 'We are creating a safety GlobalSteam Platform',
+      'main.s2.title': '¿Qué podemos ofrecer? ',
+      'main.s2.p1': 'Estamos creando una plataforma GlobalSteam segura',
       'main.s2.s1.title': '1. Compra de Regalos Globales - El Costo Más Bajo, Máximo de Juegos! ',
       'main.s2.s1.p1': 'Ventaja principal: Aprovechando las diferencias de precios entre regiones, compramos juegos de zonas con precios más bajos y los enviamos como regalos oficiales de Steam. Mucho más económico que las tiendas locales, ahorrar dinero es clave! ',
       'main.s2.s1.p2': 'Seguridad: Todos los regalos se envían a través de canales oficiales de Steam, con origen claro y sin riesgo de códigos del mercado negro, garantizando la seguridad de la cuenta. ',
@@ -453,4 +453,5 @@ document.getElementById('year').textContent = new Date().getFullYear();
     });
 
     updateLanguage(langSelect.value);
+
 
